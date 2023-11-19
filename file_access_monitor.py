@@ -4,7 +4,7 @@ import pyinotify
 
 
 # Define pin
-GPIO_PIN = 7
+GPIO_PIN = 6
 pico = picod.pico()
 
 pico.reset()  # Put Pico into a clean state
