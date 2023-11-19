@@ -13,7 +13,7 @@ Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gp
 
 **Usage:**
 
-1.  **Hardware Requirements:** Ensure compatibility with platforms like Raspberry Pi Pico.
+1.  **Hardware Requirements:** Raspberry Pi Pico.
     
 2.  **Dependencies:** Install the necessary Python modules using `pip install pyinotify picod`.
     
