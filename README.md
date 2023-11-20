@@ -1,4 +1,4 @@
-This Python script, aptly named `file_access_monitor.py`, is a tool designed for monitoring file access events and providing GPIO control, with a particular focus on the use with the HDClicker to get hard drive sounds from the activity of an emulators hard drive image. It can also be used to make a led light up based on the activity of a hard drive image that an emulator like pcem og fs-uae use. 
+This Python script, aptly named `file_access_monitor.py`, is a tool designed for monitoring file access events and providing GPIO control, with a particular focus on the use with the HDClicker to get hard drive sounds from the activity of an emulators hard drive image. It can also be used to make a led light up based on the activity of a hard drive image that an emulator like pcem og fs-uae use. It is only tested in Linux, and I doubt it works on other OSes due to the way I use pyinotify. 
 
 Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gpio. The Pico needs to be flashed with the picod daemon : http://abyz.me.uk/picod/download.html
 
