@@ -1,4 +1,4 @@
-This Python script, aptly named `file_access_monitor.py`, is a tool designed for monitoring file access events and providing GPIO control, with a particular focus on the use with the HDClicker to get hard drive sounds from the activity of an emulators hard drive image. It can also be used to make a led light up based on the activity of a hard drive image that an emulator like pcem og fs-uae use. It is only tested in Linux, and I doubt it works on other OSes due to the way I use pyinotify. 
+This Python script, aptly named `file_access_monitor.py`, is a tool designed for monitoring file access events and providing GPIO control, with a particular focus on the use with the HDDClicker to get hard drive sounds from the activity of an emulators hard drive image. It can also be used to make a led light up based on the activity of a hard drive image that an emulator like pcem og fs-uae use. It is only tested in Linux, and I doubt it works on other OSes due to the way I use pyinotify. 
 
 Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gpio. The Pico needs to be flashed with the picod daemon : http://abyz.me.uk/picod/download.html
 
@@ -8,7 +8,7 @@ Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gp
     
 -   **GPIO Control:** Integrated with the `picod` module, the script triggers GPIO signals, allowing integration with hardware components such as LEDs. This feature enables visual feedback when the monitored file is accessed.
     
--   **Versatile Application:** While the script serves as a general-purpose file access monitor with GPIO control, it has been tailored for use with HDClicker, making it an ideal companion for projects involving emulators.
+-   **Versatile Application:** While the script serves as a general-purpose file access monitor with GPIO control, it has been tailored for use with HDDClicker, making it an ideal companion for projects involving emulators.
     
 
 **Usage:**
@@ -19,7 +19,7 @@ Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gp
     
 3.  **File Specification:** Set the file path to be monitored by modifying the `file_path` variable in the script.
     
-4.  **Run the Script:** Execute the script to commence monitoring. Observe GPIO signals and printed outputs (1 for access, 0 for no access) based on file interactions.
+4.  **Run the Script:** Execute the script to commence monitoring. Use GPIO signals for LED and HDDClicker control and optional printed outputs (1 for access, 0 for no access) based on file interaction.
     
 
 **Example:**
