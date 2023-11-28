@@ -15,11 +15,13 @@ Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gp
 
 1.  **Hardware Requirements:** Raspberry Pi Pico.
     
-2.  **Dependencies:** Install the necessary Python modules using `pip install pyinotify picod`.
+2.  **Dependencies:** Install the necessary Python modules using `pip install -r requirements.txt`.
     
 3.  **File Specification:** Set the file path to be monitored by modifying the `file_path` variable in the script.
+
+4.  **Connect the hddclicker:** Connect the hddclicker to GPIO pin 6 on the Raspberry Pi Pico (and optional LED to the hddclicker or directly to GPIO pin 6 if you don't plan to use the hddclicker.    
     
-4.  **Run the Script:** Execute the script to commence monitoring. Use GPIO signals for LED and HDDClicker control and optional printed outputs (1 for access, 0 for no access) based on file interaction.
+5.  **Run the Script:** Execute the script to commence monitoring. Use GPIO signals for LED and HDDClicker control and optional printed outputs (1 for access, 0 for no access) based on file interaction.
     
 
 **Example:**
