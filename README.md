@@ -34,3 +34,6 @@ Or if you want it to start at bootup simply add it to crontab (or make a systemd
 
     @reboot /full/path/to/python /full/path/to/file_access_monitor.py
 
+**How to connect the HDDClicker and LED**
+
+![Connection diagram](file_access_monitor_connection_diagram.png)
