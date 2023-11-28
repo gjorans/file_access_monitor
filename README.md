@@ -6,7 +6,7 @@ Developed to use the Raspberry Pi Pico for GPIO on computers which don't have gp
 
 -   **Inotify-based File Monitoring:** Leveraging the power of the `pyinotify` module, the script keeps an eye on a specified file path for access events.
     
--   **GPIO Control:** Integrated with the `picod` module, the script triggers GPIO signals, allowing integration with hardware components such as LEDs. This feature enables visual feedback when the monitored file is accessed.
+-   **GPIO Control:** Integrated with the `picod` module, the script triggers GPIO signals, allowing integration with hardware components such as the HDDClicker or LEDs. This feature can enables visual and/or audio feedback when the monitored file is accessed.
     
 -   **Versatile Application:** While the script serves as a general-purpose file access monitor with GPIO control, it has been tailored for use with HDDClicker, making it an ideal companion for projects involving emulators.
     
